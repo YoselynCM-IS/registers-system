@@ -1,0 +1,73 @@
+:root {
+    --verde: #02e377;
+    --verde2:#02d16e;
+    --gris: #4a4a4a;
+    --white: #ffffff;
+    --info: #5bc0de;
+    --blue: blue;
+}
+
+#btnLogin {
+    border-radius: 20px;
+}
+
+.nav-link {
+    color: var(--white);
+    font-size: 115%;
+}
+
+.nav-link:hover {
+    background-color: var(--white);
+    color: var(--info) !important;
+    border: none;
+    border-radius: 20px;
+}
+
+#user_name, #password {
+    border-radius: 20px;
+}
+
+/* .thD {
+    width: 50px;
+} */
+
+input[type="file"]#archivoType {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    }
+   
+   label[for="archivoType"] {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #106BA0;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    }
+
+    .tab-stds .nav-link{
+        border-radius:30px;
+        background-color: var(--white);
+        color:var(--blue);
+    }
+    
+    /* .tab-stds .nav-pills .nav-link, .show>.nav-pills .nav-link{
+        color: var(--blue) !important
+    }
+    .tab-stds .nav-pills .nav-link:hover, .show>.nav-pills .nav-link{
+        color: var(--white) !important
+    }
+    .tab-stds .nav-pills .nav-link.active, .show>.nav-pills .nav-link{
+        background: var(--blue) !important;
+        color: var(--white) !important;
+    } */
